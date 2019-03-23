@@ -33,7 +33,7 @@
   transform: translate(-50%, -50%);
 }
 .bar{
-  background-color: brown;
+  background-color: #44312c;
   height: 50px;
   text-align: center;
 }
@@ -44,50 +44,49 @@
   border-right: 1px solid grey;
   padding: 0 10px 0 10px;
 }
-
-.cl1{
-  width: 24%;
-  height: 500px;
+.cl{
   background-color: white;
   float: left;
   padding: 2%;
+}
+.cl1{
+  width: 24%;
+  height: 450px;
+}
+.cl1 h2 i{
+  color: orange;
 }
 .cl2{
   width: 40%;
-  height: 500px;
-  background-color: white;
-  float: left;
+  height: 450px;
   margin-left: 2%;
-  padding: 2%;
 }
 .cl3{
   width: 32%;
-  background-color: white;
-  float: left;
   margin-left: 2%;
-  padding: 2%;
   margin-bottom: 2%;
 }
 .cl3_1{
   width: 32%;
-  background-color: white;
-  float: left;
   margin-left: 2%;
-  padding: 2%;
-  margin-bottom: 2%;
 }
-.cl2 p{
+.cl2 p , .cl3 p{
   padding-top: 3%;
 }
-.cl3 p{
-  padding-top: 3%;
-}
-.cl1 a{
+.cl1 a , .cl3_1 a{
   display: block;
   padding-top: 6%;
   text-decoration: none;
   color: green;
+  font-weight: bold;
 }
-.cl1 h2 i{
-  color: orange;
+.cl2 a{
+  text-decoration: none;
+  color: green;
+  font-weight: bold;
+  display: inline-block;
+}
+.cl1 a{
+  padding-right: 4%;
+  width: 50%;
 }
